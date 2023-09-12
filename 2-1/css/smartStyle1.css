@@ -1,6 +1,9 @@
+/* ウィンドウ幅が７６７px以上の場合 */
+
 @media screen and (min-width:767px) {
-    
+
 }
+/* タブレット用 ウィンドウ幅が７６７pxまでの場合*/
 @media screen and (max-width:767px) {
 .header{
     width: 250px;
@@ -12,12 +15,18 @@
     width: 250px;
 }
 }
+/* スマホ用 ウィンドウ幅が４７９pxまでの場合*/
 @media screen and (max-width:479px) {
 .header{
     width: 150px;
 }
+.left{
+    width: 150px;
+    float: none;
+}
 .right{
     width: 150px;
+    float: none;
 }
 .footer{
     width: 150px;
